@@ -17,6 +17,12 @@ Output :
 Explanation:
 No matter how many times we repeat A, we can't
 get a string such that B is a substring of it.
+
+
+
+Enter first string: abcde
+Enter second string: ea
+2
 """
 
 str1 = input("Enter first string: ")
