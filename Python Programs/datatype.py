@@ -38,7 +38,7 @@ print("hello " + "world")
 print("hello" + " " + "world")
 #hello world
 #hello world
-#print("hello " + 1)
+print("hello " + 1)
 # Traceback (most recent call last):
  #File "C:\Users\Silky\PycharmProjects\mylearning\Python Programs\datatype.py", line 41, in <module>
   # print("hello " + 1)
