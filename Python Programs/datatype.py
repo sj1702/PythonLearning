@@ -17,6 +17,13 @@ print(4 / 2)
 print(1 / 2)
 # 0.5
 # Single / gives the division answers in float type.
+print(4 // 2)
+#2
+print(9 // 2)
+#4
+#double slash (//) gives the whole number
+print(9 % 2)
+#1 modulo operator(%) gives the remainder of division
 print((1 + 2) * 3)
 # 9
 x = 4
@@ -38,9 +45,15 @@ print("hello " + "world")
 print("hello" + " " + "world")
 #hello world
 #hello world
+print(len('Hello'))
+#5
+print(len('Hello world'))
+#11  len() tells length of the string. It includes whitespaces also.
+print('A' * 5)
+#AAAAA
 print("hello " + 1)
 # Traceback (most recent call last):
- #File "C:\Users\Silky\PycharmProjects\mylearning\Python Programs\datatype.py", line 41, in <module>
+ #File "C:\Users\Silky\PycharmProjects\mylearning\Python Programs\datatype.py", line 54, in <module>
   # print("hello " + 1)
  #  TypeError: can only concatenate str (not "int") to str.
 print(str(1))
@@ -48,10 +61,5 @@ print(str(1))
 print("hello " + str(1))
 #hello 1
 
-""" python uses Interpretor so if there is an error it will not run next line . So when running above program first make line 41 as comment"""
-print(len('Hello'))
-#5
-print(len('Hello world'))
-#11  len() tells length of the string. It includes whitespaces also.
-print('A' * 5)
-#AAAAA
+""" python uses Interpretor so if there is an error it will not run next line . So when running above program first make line 54 as comment"""
+
