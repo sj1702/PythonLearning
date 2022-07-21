@@ -6,3 +6,14 @@ while r <= tr:
     n = (2 * r) - 1  # how many times to print symbol
     print(" " * s, sym * n)
     r += 1
+
+""" Output:
+enter number of rows: 5
+Enter the symbol to print: *
+     *
+    ***
+   *****
+  *******
+ *********
+
+"""
