@@ -1,8 +1,6 @@
 """
 Assignment:
    Calculate number of months taken to reach portion of down payment as it will allow user to own home
-
-
 """
 
 annual_salary = float(input("The starting annual salary: "))
@@ -25,4 +23,11 @@ while(current_savings<portion_down_payment):
 
 print("Number of months:", num_months)
 
-
+"""
+The starting annual salary: 150000
+The portion of salary to be saved: 0.44
+The cost of your dream home: 1000000
+semi-annual salary raise: 0.07
+Rate of return for Investment: 0.04
+Number of months: 37
+"""
