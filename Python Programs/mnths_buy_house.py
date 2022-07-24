@@ -24,6 +24,7 @@ while(current_savings<portion_down_payment):
 print("Number of months:", num_months)
 
 """
+OUTPUT:
 The starting annual salary: 150000
 The portion of salary to be saved: 0.44
 The cost of your dream home: 1000000
