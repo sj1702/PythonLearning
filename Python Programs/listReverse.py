@@ -17,7 +17,7 @@ reversed_numbers = numbers[::-1]
 print("Reversed list:", reversed_numbers)
 
 
-#Solution 2
+
 #Solution 2
 # Prompt the user to enter the number of elements in the list
 num_elements = int(input("Enter the number of elements in the list: "))
