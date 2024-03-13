@@ -72,3 +72,36 @@ print("Number of odd numbers:", odd_count)
 # C: 70 - 79
 # D: 60 - 69
 # F: below 60
+
+#Solution
+# Ask the user to input the scores of multiple students
+num_students = int(input("Enter the number of students: "))
+
+# Initialize an empty list to store the scores and grades
+student_scores = []
+student_grades = []
+
+# Input loop for each student
+for i in range(num_students):
+    score = float(input(f"Enter the score for student {i + 1}: "))
+
+    # Calculate the grade based on the score
+    if score >= 90:
+        grade = 'A'
+    elif score >= 80:
+        grade = 'B'
+    elif score >= 70:
+        grade = 'C'
+    elif score >= 60:
+        grade = 'D'
+    else:
+        grade = 'F'
+
+    # Append the score and grade to the list
+    student_score.append(score)
+    student_grade.append(grade)
+
+# Display the grades of each student
+print("\nStudent Grades:")
+for i in range(num_students):
+    print(f"Student {i+1}: Score = {scores[i]}, Grade = {grades[i]}")
