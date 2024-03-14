@@ -84,7 +84,7 @@ student_grades = []
 # Input loop for each student
 for i in range(num_students):
     score = float(input(f"Enter the score for student {i + 1}: "))
-
+    student_scores.append(score)
     # Calculate the grade based on the score
     if score >= 90:
         grade = 'A'
@@ -98,10 +98,9 @@ for i in range(num_students):
         grade = 'F'
 
     # Append the score and grade to the list
-    student_score.append(score)
-    student_grade.append(grade)
+    student_grades.append(grade)
 
 # Display the grades of each student
 print("\nStudent Grades:")
 for i in range(num_students):
-    print(f"Student {i+1}: Score = {scores[i]}, Grade = {grades[i]}")
+    print(f"Student {i+1}: Score = {student_scores[i]}, Grade = {student_grades[i]}")
