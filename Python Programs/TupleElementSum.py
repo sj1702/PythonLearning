@@ -211,11 +211,4 @@ if result:
 
 
 
-# You have to take bunch of  string as input
-# convert it in tuple
-# print the length of each string
 
-# You have to take bunch of  int as input
-# convert it in tuple
-# check the even numbers
-# print the the new tuple of even number
